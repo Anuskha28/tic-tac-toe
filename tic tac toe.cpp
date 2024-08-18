@@ -92,7 +92,7 @@ using namespace std;
  		spaces[2]==player?cout<<"you win"<<endl:cout<<"you loose"<<endl;
 	 }
 	 	else if(spaces[0]!=' '&&spaces[0]==spaces[4]&&spaces[4]==spaces[8]){
- 		spaces[2]==player?cout<<"you win"<<endl:cout<<"you loose"<<endl;
+ 		spaces[0]==player?cout<<"you win"<<endl:cout<<"you loose"<<endl;
 	 }
 	 	else if(spaces[2]!=' '&&spaces[2]==spaces[5]&&spaces[5]==spaces[8]){
  		spaces[2]==player?cout<<"you win"<<endl:cout<<"you loose"<<endl;
